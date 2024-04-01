@@ -1,9 +1,11 @@
-*{
-    margin: 2px;
+*{ font-family: sans-serif roboto;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    color:darkslategrey;
+    
   }
+  body{background-color: darkslategrey;
+    color:antiquewhite;  }
 
   a{
     text-decoration: none;
@@ -12,10 +14,9 @@
 nav{
     display: flex;
     position: sticky;
-    
+
     justify-content: space-between;
   align-items: center;
-  overflow: hidden;
   padding: 30px 60px;
   background-color: antiquewhite;
     
@@ -28,8 +29,9 @@ nav ul{
     gap: 50px;
     list-style: none;
   }
-  header{display: flex;
+header{
     width: 100%;
+    color:darkslategrey;
 
 }
 
@@ -45,4 +47,19 @@ nav ul{
     text-decoration: none;
     font-size: 18px;
     font-weight: 100;
+  }
+ #origin{margin: 2rem;
+   padding: 10px;
+   display: flex;
+   gap: 10%;
+   /* justify-content: space-between; */
+  }
+  .intro-text{
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  .img-ctn{ width: 20%;
+    border-radius: 10px;
   }
