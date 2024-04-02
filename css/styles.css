@@ -108,4 +108,52 @@ header{
     border-radius: 5px;
     
     }
+
+    #contact-form{
+      padding: 30px 60px;
+    }
+    #contact-form h3{
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+    
+    form{
+      margin-top: 20px;
+      background: darkslategrey;
+    }
+    .input-control{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 25px;
+    }
+    .input-control input, .input-control textarea{
+      width: 100%;
+      padding: 10px 25px;
+      font-size: 16px;
+      border: 1px solid antiquewhite;
+      border-radius: 5px;
+    }
+    .input-control input:focus{
+      border-color: #f7c08a;
+      outline: none;
+    }
+    .input-control textarea{
+      height: 200px;
+    }
+    
+    form button{
+      color: darkslategrey;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: 400;
+      background:#f7c08a;
+      transition: all 0.3s;
+      font-size: 18px;
+      border: none;
+    }
+    form button:hover{
+      color: darkslategrey;
+      background:antiquewhite;
+    }
     
