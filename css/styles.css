@@ -38,6 +38,7 @@ header{
     position: fixed;
     top: 0;
     background: antiquewhite;
+    
 
 }
 
@@ -71,9 +72,10 @@ header{
   img{
     width: 100%;
     height: 100%;
+    border-radius: 30px;
   }
   .img-ctn{ width: 20%;
-    
+    border-radius: 30px;
     background-color: antiquewhite;
   }
   .intro-body{
